@@ -1,0 +1,77 @@
+body {
+    font-family: 'Gill Sans';
+    margin: 0;
+    padding: 0;
+    background-color: #010408;
+}
+
+.resume {
+    width: 80%;
+    margin: 0 auto;
+    background: #a6b8f1;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header.personal-info {
+    text-align: center;
+    line-height: 0.4;
+    font-weight: bold;
+}
+
+.profile-pic {
+    width: 110px;
+    height: 130px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    /* margin-left: 0%; */
+    /* margin-right: 100%; */
+}
+
+.section {
+    margin-bottom: 10px;
+}
+
+h2 {
+    border-top: 2px solid rgb(95, 29, 3);
+    border-bottom: 2px solid rgb(95, 29, 3);
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 0.9;
+}
+
+p.small {
+    line-height: 0.5;
+  }
+
+
+/* button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+
+button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
